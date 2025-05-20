@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Online Portfolio</title> 
+  <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+  <!-- Navigation --> 
+  <nav> 
+    <ul> 
+      <li><a href="#home">Home</a></li> 
+      <li><a href="#about">About</a></li> 
+      <li><a href="#skills">Skills</a></li> 
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#portfolio">Portfolio</a></li> 
+      <li><a href="#contact">Contact</a></li> 
+    </ul> 
+  </nav> 
+
+  <!-- Home Section --> 
+  <section id="home"> 
+    <h1>Hazem Hamada Emam</h1> 
+    <img src="./hazem.jpg" alt="Profile Photo"> 
+    <br></br> 
+    <p>Welcome to my online portfolio. I am a cybersecurity specialist and passionate bug bounty hunter dedicated to identifying and resolving security vulnerabilities.</p> 
+  </section> 
+
+  <!-- About Section --> 
+  <section id="about">  
+    <h2>About Me</h2>  
+    <p>Hello! My name is Hazem Hamada Emam, and I am a cybersecurity enthusiast specializing in bug bounty hunting.</p>  
+    <p>I studing in Menoufia University, Faculty of Engineering, with a focus on cybersecurity. I have hands-on experience in identifying and reporting security vulnerabilities in web applications and networks.</p>  
+    <p>As a bug bounty hunter, I enjoy analyzing systems to find bugs and help improve security by responsibly disclosing them to organizations.</p>  
+    <p>I am passionate about continuous learning and staying updated with the latest security trends and techniques.</p>  
+  </section> 
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Web Application Security</li>
+      <li>Vulnerability Assessment</li>
+      <li>Burp Suite, Nmap, Metasploit</li>
+      <li>OWASP Top 10</li>
+      <li>Python, Bash Scripting</li>
+      <li>Linux & Windows Security</li>
+    </ul>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications & Training</h2>
+    <ul>
+      <li>netriders EJPT and EWAP</li>
+      <li>NTI from minster</li>
+      <li>OWASP Top 10 Course - PortSwigger</li>
+    </ul>
+  </section>
+
+
+  <!-- Portfolio Section --> 
+  <section id="portfolio"> 
+    <h2>my work</h2> 
+
+    <!-- Image Gallery --> 
+    <div class="gallery"> 
+      <img src="./mywork.png" alt="Artwork 1"> 
+    </div> 
+
+    <!-- Video Projects --> 
+    <div class="video"> 
+      <h3>Video Projects</h3> 
+      <video controls width="320"> 
+        <source src="me.mp4" type="video/mp4"> 
+        Your browser does not support the video tag. 
+      </video> 
+    </div> 
+  </section> 
+
+  <!-- Contact Section --> 
+  <section id="contact"> 
+    <h2>Contact Me</h2> 
+    <form action="#" method="post"> 
+      <label for="name">Name:</label> 
+      <input type="text" id="name" name="name" required><br> 
+      <label for="email">Email:</label> 
+      <input type="email" id="email" name="email" required><br> 
+      <label for="message">Message:</label><br> 
+      <textarea id="message" name="message" rows="4" required></textarea><br> 
+      <button type="submit">Send</button> 
+    </form> 
+    <p>Connect with me: 
+      <a href="https://github.com/hazem-error" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/hazem-hamada-72490132b/" target="_blank">LinkedIn</a>
+    </p> 
+  </section> 
+</body> 
+</html>
